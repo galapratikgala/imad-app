@@ -13,10 +13,10 @@ app.get('/article-one', function (req, res) {
  res.send('Article one will be requested here');
 }); 
 app.get('/article-two', function (req, res) {
- res.send('Article one will be requested here');
+ res.send('Article two will be requested here');
 }); 
 app.get('/article-three', function (req, res) {
- res.send('Article one will be requested here');
+ res.send('Article three will be requested here');
 }); 
 
 app.get('/ui/style.css', function (req, res) {
